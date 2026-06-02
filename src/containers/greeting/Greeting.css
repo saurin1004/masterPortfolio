@@ -27,6 +27,8 @@
 }
 .button-greeting-div {
   display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
   margin-top: 20px;
 }
 
@@ -58,10 +60,10 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    font-size: 58px;
   }
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 26px;
   }
 }
 @media (max-width: 768px) {
@@ -69,7 +71,7 @@
     justify-content: space-around;
   }
   .greeting-text {
-    font-size: 30px;
+    font-size: 60px;
     margin-top: 0px;
     text-align: center;
   }
@@ -78,7 +80,7 @@
     text-align: center;
   }
   .greeting-text-p {
-    font-size: 16px;
+    font-size: 20px;
     margin-right: 0px;
     line-height: normal;
     text-align: center;
