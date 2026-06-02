@@ -2,7 +2,7 @@
 import { SiLeetcode } from "react-icons/si";
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -204,7 +204,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/u/saurin1004/",
     },
     {
       siteName: "HackerRank",
@@ -212,39 +212,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/Saurin_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@Saurin391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.hackerrank.com/profile/saurinprajapati",
     },
   ],
 };
@@ -252,30 +220,57 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "Arizona State University",
+      subtitle: "Master of Science in Computer Science",
+      logo_path: "asu_logo.png",
+      alt_name: "ASU",
+      duration: "2024 - 2026",
+      gpa: "4.00/4.00",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "Coursework:",
+        "• CSE 512 - Distributed Database Systems",
+        "• CSE 539 - Applied Cryptography",
+        "• CSE 540 - Engineering Blockchain Applications",
+        "• CSE 545 - Software Security",
+        "• CSE 546 - Cloud Computing",
+        "• CSE 559 - Algorithms in Computational Biology",
+        "• CSE 565 - Software Verification/Validation/Testing",
+        "• CSE 572 - Data Mining",
+        "• CSE 575 - Statistical Machine Learning",
+        "• CSE 578 - Data Visualization",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.asu.edu/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
+      title: "Institute of Technology, Nirma University",
+      subtitle: "Bachelor of Technology in Computer Science and Engineering",
+      logo_path: "nirma_logo.png",
       alt_name: "Indiana University Bloomington",
       duration: "2021 - 2023",
+      gpa: "8.14/10.00",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "Relevant Coursework:",
+        "• 2CS 301 - Data Structures and Algorithms",
+        "• 2CS 302 - Object Oriented Programming",
+        "• 2CS 303 - Digital Electronics",
+        "• 2CS 401 - Computer Architecture",
+        "• 2CS 402 - Database Management Systems",
+        "• 2CS 403 - Operating Systems",
+        "• 2CS 404 - Programming for Scientific Computing",
+        "• 2CS 405 - Web Technologies",
+        "• 2CS 501 - Machine Learning",
+        "• 2CS 502 - Computer Networks",
+        "• 2CS 503 - Design and Analysis of Algorithms",
+        "• 2CS 504 - Software Engineering",
+        "• 2CS 601 - Theory of Computation",
+        "• 2CS 701 - Compiler Construction",
+        "• 2CS 702 - Big Data Analytics",
+        "• 2CSDE 55 - Agile Software Development",
+        "• 2CSDE 67 - Cloud Computing",
+        "• 2CSDE 80 - Software Testing and Quality Assurance",
+        "• 2CSDE 93 - Blockchain Technology",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://technology.nirmauni.ac.in/",
     },
   ],
 };
@@ -283,112 +278,101 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
+      title: "Supervised Machine Learning: Regression and Classification",
       subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://coursera.org/share/b3068e0c50250f04b4e85cd52b15b77a",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
+      title: "Advanced Learning Algorithms",
       subtitle: "- Andrew Ng",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "https://coursera.org/share/bd97c97263dcca16aad0a19c22529411",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Unsupervised Learning, Recommenders, Reinforcement Learning",
+      subtitle: "- Andrew Ng",
+      logo_path: "stanford_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+        "https://coursera.org/share/8291006724d0b3d78247bb9148501849",
+      alt_name: "Stanford University",
+      color_code: "#8C151599",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      title: "Data Ecosystem",
+      subtitle: "- Tableau Learning Partner",
+      logo_path: "tableau_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
+        "https://www.coursera.org/account/accomplishments/verify/JL1W8DKRIH2G",
       alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+      color_code: "#89D4FF",
     },
     {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
+      title: "Introduction to Cloud Computing",
+      subtitle: "- Rav Ahuja",
+      logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
+        "https://coursera.org/share/267208b99cec22489b757a7574e13356",
+      alt_name: "IBM",
+      color_code: "#1F70C199",
     },
     {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
+      title: "Introduction to Tableau",
+      subtitle: "- Tableau Learning Partner",
+      logo_path: "tableau_logo.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://coursera.org/share/eb340105fb6eb6864e75e9c64efc4ce4",
+      alt_name: "Google",
+      color_code: "#89D4FF",
     },
     {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
+      title: "Python",
+      subtitle: "- Harishankaran K",
+      logo_path: "hackerrank_logo.png",
+      certificate_link: "https://www.hackerrank.com/certificates/acca8c793e98",
+      alt_name: "Hackerrank",
+      color_code: "#9AD872",
     },
     {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
+      title: "Algorithmic Toolbox",
+      subtitle: "- Alexander S. Kulikov",
+      logo_path: "uc_san_diego_logo.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://coursera.org/share/39b81674792ba917aba9d22fa335cd0a",
+      alt_name: "IBM",
+      color_code: "#2C5EAD",
+    },
+    {
+      title: "Problem solving",
+      subtitle: "- Harishankaran K",
+      logo_path: "hackerrank_logo.png",
+      certificate_link: "https://www.hackerrank.com/certificates/acca8c793e98",
+      alt_name: "Hackerrank",
+      color_code: "#9AD872",
+    },
+    {
+      title: "Python Training",
+      subtitle: "- Kannan M Moudgalya",
+      logo_path: "iit_bombay_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1mXBaCrZEoUtJVuyyFUzzLYyiwYFnzI-s/view?usp=sharing",
+      alt_name: "IIT Bombay",
+      color_code: "#CFECF3",
+    },
+    {
+      title: "C Training",
+      subtitle: "- Kannan M Moudgalya",
+      logo_path: "iit_bombay_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1XlR7xz21LJKaCmF9S7br3zwERrcjmFcm/view?usp=sharing",
+      alt_name: "IIT Bombay",
+      color_code: "#CFECF3",
     },
   ],
 };
@@ -396,9 +380,8 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
-  description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  subtitle: "Work and Internships",
+  description: "",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -490,67 +473,6 @@ const experience = {
         },
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
-      ],
-    },
   ],
 };
 
@@ -598,9 +520,8 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_Saurin.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "If you have any questions or would like to reach out, please send a mail to @gmail.com.",
   },
   blogSection: {
     title: "Blogs",
@@ -611,14 +532,15 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
+    subtitle: "Tempe, AZ, USA 85281",
+    locality: "Tempe",
     country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    region: "Arizona",
+    postalCode: "85281",
+    streetAddress: "",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link:
+      "https://www.google.com/maps/place/Arizona+State+University/@33.4254065,-111.9314733,17z/data=!4m7!3m6!1s0x872b08db3b33540f:0x666e717f473c3033!8m2!3d33.4267153!4d-111.9292583!15sChhBcml6b25hIFN0YXRlIFVuaXZlcnNpdHlaGiIYYXJpem9uYSBzdGF0ZSB1bml2ZXJzaXR5kgERcHVibGljX3VuaXZlcnNpdHngAQA!16zL20vMHRydg?entry=tts",
   },
   phoneSection: {
     title: "",
