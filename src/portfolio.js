@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Saurin Prajapati Portfolio",
     type: "website",
-    url: "http://SaurinPrajapati.com/",
+    url: "https://saurin1004.github.io/",
   },
 };
 
@@ -69,9 +69,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "• Use Java and Spring Boot to build RESTful backend services that connect to databases like Postgres with JDBC. Expose APIs for the frontend.",
+        "• Build interactive user interfaces with React. Use JavaScript, HTML, and CSS for frontend code.",
+        "• Use tools like Jira, Git, Docker, Postman, SonarQube, and Agile practices for project management, testing, deployment, and quality assurance.",
       ],
       softwareSkills: [
         {
@@ -86,13 +86,6 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -132,17 +125,59 @@ const skills = {
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "Flask",
+          fontAwesomeClassname: "simple-icons:flask",
           style: {
             color: "#663399",
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
           style: {
-            color: "#02569B",
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "simple-icons:springboot",
+          style: {
+            color: "#6DB33F",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#007A8C",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#F05032",
+          },
+        },
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "simple-icons:postman",
+          style: {
+            color: "#FF6C37",
+          },
+        },
+        {
+          skillName: "JUnit5",
+          fontAwesomeClassname: "simple-icons:junit5",
+          style: {
+            color: "#25A16F",
+          },
+        },
+        {
+          skillName: "Jira",
+          fontAwesomeClassname: "simple-icons:jira",
+          style: {
+            color: "#0052CC",
           },
         },
       ],
@@ -151,9 +186,10 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "• Build data pipelines with Python, Pandas, NumPy, scikit-learn, and XGBoost for preprocessing, model training, tuning, and validation.",
+        "• Develop predictive modeling solutions for credit-risk analysis using logistic regression, feature engineering, variable transformation, and customer-level banking data.",
+        "• Create ETL workflows and modeling marts with SQL, SAS, and Python to transform demographic, CASA, loan, and transactional datasets into analytics-ready data.",
+        "• Perform exploratory analysis, data quality checks, correlation analysis, and model evaluation to deliver business insights and stakeholder-ready outputs.",
       ],
       softwareSkills: [
         {
@@ -173,9 +209,10 @@ const skills = {
         },
         {
           skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          fontAwesomeClassname: "simple-icons:pytorch",
           style: {
-            backgroundColor: "transparent",
+            backgroundColor: "white",
+            color: "#FF6B00",
           },
         },
         {
@@ -189,6 +226,106 @@ const skills = {
         {
           skillName: "Deeplearning",
           imageSrc: "deeplearning_ai_logo.png",
+        },
+      ],
+    },
+    {
+      title: "Programming Languages",
+      fileName: "ProgrammingLanguagesImg",
+      skills: [
+        "• I have extensively used Java, Python, and JavaScript on projects. I have experience coding in Java for over five years, Python for over four years, and JavaScript for two years.",
+        "• I understand the fundamentals of SQL and have used OracleDB, Postgres, MySQL, and Microsoft SQL Server in projects at Sutra Management.",
+        "• I have used Base SAS for data analysis and modeling projects at Sutra Management.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "logos:java",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "logos:javascript",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "logos:c-plusplus",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "C",
+          fontAwesomeClassname: "devicon:c",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "PostgresSQL",
+          fontAwesomeClassname: "logos:postgresql",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos:mysql",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "OracleDB",
+          fontAwesomeClassname: "logos:oracle",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Microsoft SQL Server",
+          fontAwesomeClassname: "devicon-plain:microsoftsqlserver-wordmark",
+          style: {
+            color: "#e6283b",
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "logos:graphql",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Base SAS",
+          fontAwesomeClassname: "material-icon-theme:sas",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
         },
       ],
     },
@@ -267,6 +404,7 @@ const degrees = {
         "• 2CS 702 - Big Data Analytics",
         "• 2CSDE 55 - Agile Software Development",
         "• 2CSDE 67 - Cloud Computing",
+        "• 2CSDE 71 - Data Mining",
         "• 2CSDE 80 - Software Testing and Quality Assurance",
         "• 2CSDE 93 - Blockchain Technology",
       ],
@@ -366,6 +504,15 @@ const certifications = {
       color_code: "#CFECF3",
     },
     {
+      title: "Complete A.I. & Machine Learning, Data Science Bootcamp",
+      subtitle: "- Andrei Neagoie",
+      logo_path: "udemy_logo.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-fa8206f4-4fc8-445d-90a7-fb3f6a870153/",
+      alt_name: "Udemy AI & ML Bootcamp",
+      color_code: "#ffffff",
+    },
+    {
       title: "C Training",
       subtitle: "- Kannan M Moudgalya",
       logo_path: "iit_bombay_logo.png",
@@ -373,6 +520,15 @@ const certifications = {
         "https://drive.google.com/file/d/1XlR7xz21LJKaCmF9S7br3zwERrcjmFcm/view?usp=sharing",
       alt_name: "IIT Bombay",
       color_code: "#CFECF3",
+    },
+    {
+      title: "The Complete Full-Stack Web Development Bootcamp",
+      subtitle: "- Dr. Angela Yu",
+      logo_path: "udemy_logo.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-80006468-bcce-4a75-a698-d815a4a8355a/",
+      alt_name: "Udemy Full-Stack Web Development Bootcamp",
+      color_code: "#ffffff",
     },
   ],
 };
@@ -385,91 +541,41 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Work and Internships",
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "Software Engineer I",
+          company: "Sutra Management",
+          company_url: "https://sutra-management.com/",
+          logo_path: "sutra_logo.png",
+          duration: "July 2023 - July 2024",
+          location: "Ahmedabad, India | Hanoi, Vietnam | Dubai, UAE",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "As a Software Engineer I at Sutra Management, I worked on backend systems and data pipelines for healthcare and banking platforms used by enterprise clients. My role involved designing and developing ETL data pipelines and dashboards using the SAS ecosystem, Python, and SQL, along with building scalable backend services using Spring Boot and REST APIs. I worked with PostgreSQL  and OracleDB to design database schemas, optimize queries, and support transaction-heavy applications. I also implemented role-based access control and secure authentication flows, and collaborated with cross-functional Agile teams to deliver production-ready software.",
           color: "#000000",
         },
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Software Engineer Intern",
+          company: "Sutra Management",
+          company_url: "https://sutra-management.com/",
+          logo_path: "sutra_logo.png",
+          duration: "January 2023 - June 2023",
+          location: "Ahmedabad, India | Noida, India",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "As a Software Engineer Intern at Sutra Management, I worked on a behavioral credit risk scorecard project for an unsecured personal loan portfolio. My responsibilities focused on backend data processing, credit risk model development, and feature selection for the scorecard model. I helped prepare and validate customer-level datasets using demographic, banking, CASA, and loan data, and supported the creation of modeling marts across observation and performance windows. I contributed to building a logistic regression PD scorecard to identify likely defaulters, while working with Python, SQL, and automated feature engineering workflows to perform data quality checks, variable transformations, correlation analysis, and model validation. As part of the project, I collaborated with subject matter experts to debug data issues, prepare production deployment artifacts, and present final model outputs and business insights to senior stakeholders.",
           color: "#000000",
         },
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          title: "Software Engineer Intern - AI/ML",
+          company: "Tecblic",
+          company_url: "https://tecblic.com/",
+          logo_path: "tecblic_logo.png",
+          duration: "June 2022 - July 2022",
+          location: "Ahmedabad, India",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "As a Software Engineer Intern focused on AI/ML at Tecblic, I worked on machine learning pipelines using Python and XGBoost. My responsibilities included preparing and preprocessing datasets, tuning machine learning models, and improving the reliability of model training workflows. I collaborated with engineering teams to debug backend processing issues, improve code maintainability, and support production-oriented ML development. This experience strengthened my understanding of applied machine learning, data preprocessing, and collaborative software development.",
           color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
         },
       ],
     },
@@ -479,8 +585,7 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+  description: "",
   avatar_image_path: "projects_image.svg",
 };
 
