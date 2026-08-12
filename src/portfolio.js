@@ -541,31 +541,37 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work and Internships",
+      title: "Work",
       work: true,
       experiences: [
         {
-          title: "Software Engineer I",
-          company: "Sutra Management",
-          company_url: "https://sutra-management.com/",
-          logo_path: "sutra_logo.png",
-          duration: "July 2023 - July 2024",
-          location: "Ahmedabad, India | Hanoi, Vietnam | Dubai, UAE",
+          title: "Software Engineer",
+          company: "Wikimedia Foundation",
+          company_url: "",
+          logo_path: "wikimedia_logo.png",
+          duration: "January 2026 - Present",
+          location: "Remote, USA",
           description:
-            "As a Software Engineer I at Sutra Management, I worked on backend systems and data pipelines for healthcare and banking platforms used by enterprise clients. My role involved designing and developing ETL data pipelines and dashboards using the SAS ecosystem, Python, and SQL, along with building scalable backend services using Spring Boot and REST APIs. I worked with PostgreSQL  and OracleDB to design database schemas, optimize queries, and support transaction-heavy applications. I also implemented role-based access control and secure authentication flows, and collaborated with cross-functional Agile teams to deliver production-ready software.",
-          color: "#000000",
+            "As a Software Engineer at the Wikimedia Foundation, I built Python services for an AI-assisted content-quality pipeline, exposing FastAPI endpoints that processed multilingual revision metadata and delivered structured prediction signals to editor review workflows. I integrated Kafka event streams with PostgreSQL processing jobs, reducing duplicate revision handling by 18% while maintaining traceable prediction statuses across asynchronous multilingual content evaluation stages. I connected revision workflows with Lift Wing machine-learning APIs, transforming model scores into configurable quality indicators for identifying potentially damaging edits and prioritizing timely human review. I optimized batch inference requests and cache-aware metadata lookups, shortening median prediction response time by 14% while limiting unnecessary model-service and database traffic during peak periods. I also validated model integrations, monitored processing logs, and resolved recurring inference failures, improving successful event completion by 9% throughout staged deployments and post-release verification activities.",
+          color: "#ee3c26",
         },
         {
-          title: "Software Engineer Intern",
+          title: "Software Engineer",
           company: "Sutra Management",
           company_url: "https://sutra-management.com/",
           logo_path: "sutra_logo.png",
-          duration: "January 2023 - June 2023",
-          location: "Ahmedabad, India | Noida, India",
+          duration: "January 2023 - July 2024",
+          location: "Ahmedabad, India | Hanoi, Vietnam | Dubai, UAE",
           description:
-            "As a Software Engineer Intern at Sutra Management, I worked on a behavioral credit risk scorecard project for an unsecured personal loan portfolio. My responsibilities focused on backend data processing, credit risk model development, and feature selection for the scorecard model. I helped prepare and validate customer-level datasets using demographic, banking, CASA, and loan data, and supported the creation of modeling marts across observation and performance windows. I contributed to building a logistic regression PD scorecard to identify likely defaulters, while working with Python, SQL, and automated feature engineering workflows to perform data quality checks, variable transformations, correlation analysis, and model validation. As part of the project, I collaborated with subject matter experts to debug data issues, prepare production deployment artifacts, and present final model outputs and business insights to senior stakeholders.",
+            "As a Software Engineer at Sutra Management, I configured Java Spring Boot services for an enterprise order-management modernization project, translating functional requirements into REST endpoints, validation rules, and maintainable, reusable backend service-layer components. I modeled Hibernate and JPA entities for MySQL transaction data, decreasing repeated query execution by 13% and improving record retrieval time by 10% through targeted indexing. I integrated Kafka-based status events with downstream fulfillment services, implementing idempotent consumers and retry handling for delayed, duplicated, or temporarily unavailable message-processing scenarios across multiple environments. I automated unit and API regression tests using JUnit, Mockito, and Postman, increasing covered service scenarios by 16% before scheduled client release cycles and acceptance reviews. I resolved production defects by analyzing application logs, SQL results, and service responses to restore expected order-validation behavior across assigned support releases, and documented recurring incident categories. I also deployed Docker-packaged services through Jenkins pipelines, lowering manual release preparation by 15% while documenting rollback procedures and post-deployment verification steps for dedicated application support teams.",
           color: "#000000",
         },
+      ],
+    },
+    {
+      title: "Internships",
+      work: true,
+      experiences: [
         {
           title: "Software Engineer Intern - AI/ML",
           company: "Tecblic",
